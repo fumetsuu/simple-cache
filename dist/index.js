@@ -14,9 +14,9 @@ function suSimpleCache() {
 	this.dirPath = '';
 
 	/**
-  * initialise the simpleCache instance
+  * initialise the suSimpleCache instance
   * @param {string} dpath - path to the cache directory
-  * @return {simpleCache} this instance
+  * @return {suSimpleCache} this instance
   */
 	this.init = function (dpath) {
 		_this.dirPath = dpath;
