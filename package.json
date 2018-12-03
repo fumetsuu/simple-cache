@@ -1,6 +1,6 @@
 {
   "name": "su-simple-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,10 @@
     "docs": "jsdoc2md ./src/** --global-index-format grouped > README.md"
   },
   "author": "Joseph Surin <joseph.surin@gmail.com>",
-  "repository": {"type": "git", "url": "https://github.com/fumetsuu/su-simple-cache"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fumetsuu/su-simple-cache"
+  },
   "license": "ISC",
   "dependencies": {
     "md5": "^2.2.1"
