@@ -4,7 +4,7 @@
 * [set(key, value)](#set) ⇒ <code>Promise</code>
 * [get(key)](#get) ⇒ <code>Promise</code>
 * [isCached(key)](#isCached) ⇒ <code>Promise</code>
-* [isCachedSync(key)](#isCachedSync) ⇒
+* [isCachedSync(key)](#isCachedSync) ⇒ <code>boolean</code>
 * [delete(key)](#delete) ⇒ <code>Promise</code>
 * [deleteSync(key)](#deleteSync) ⇒ <code>void</code>
 * [deleteAll()](#deleteAll) ⇒ <code>Promise</code>
@@ -60,11 +60,10 @@ asynchronously checks if the file with the given key is cached in the cache dire
 
 <a name="isCachedSync"></a>
 
-## isCachedSync(key) ⇒
+## isCachedSync(key) ⇒ <code>boolean</code>
 synchronous version of isCached
 
 **Kind**: global function  
-**Returns**: boolean  
 
 | Param | Type | Description |
 | --- | --- | --- |

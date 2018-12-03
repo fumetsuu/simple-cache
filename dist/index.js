@@ -84,7 +84,7 @@ function simpleCache() {
 	/**
   * synchronous version of isCached
   * @param {string} key - Unique identifier
-  * @return boolean
+  * @return {boolean}
   */
 	this.isCachedSync = function (key) {
 		var hashFilename = getHashedFilename(key);
