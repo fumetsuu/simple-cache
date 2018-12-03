@@ -8,7 +8,7 @@ var getHashedFilename = function getHashedFilename(key) {
 	return md5(key) + '.cache';
 };
 
-function simpleCache() {
+function suSimpleCache() {
 	var _this = this;
 
 	this.dirPath = '';
@@ -130,5 +130,5 @@ function simpleCache() {
 	};
 }
 
-module.exports = simpleCache;
+module.exports = suSimpleCache;
 //# sourceMappingURL=index.js.map

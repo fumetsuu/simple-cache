@@ -4,7 +4,7 @@ const path = require('path')
 
 const getHashedFilename = (key) => md5(key) + '.cache'
 
-function simpleCache() {
+function suSimpleCache() {
 	
 	this.dirPath = ''
 
@@ -125,4 +125,4 @@ function simpleCache() {
 	}
 }
 
-module.exports = simpleCache
+module.exports = suSimpleCache
